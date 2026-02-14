@@ -6,7 +6,7 @@
 -- LazyVim
 vim.g.autoformat = false
 
--- set clipboard=unnamed と同等
+vim.opt.swapfile = false
 vim.opt.clipboard = "unnamed"
 
 -- g:clipboard の Lua 版
