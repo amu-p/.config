@@ -6,7 +6,7 @@ return {
       -- Snacks.picker.grep({ glob = "*.c" }),
       {
         "<leader>/", function()
-          Snacks.picker.grep({ glob = {"*.[ch]", "*.lua"} })
+          Snacks.picker.grep({ glob = {"*.[ch]", "*.lua", "*.md"} })
         end, desc = "Grep",
       },
     },
