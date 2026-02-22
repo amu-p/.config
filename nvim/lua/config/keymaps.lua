@@ -4,7 +4,7 @@
 
 local map = vim.keymap.set
 
-map("n", "<space>.", ":<C-u>e ~/.config/nvim/lua/config/<CR>", { silent = true })
+-- map("n", "<space>.", ":<C-u>e ~/.config/nvim/lua/config/<CR>", { silent = true })
 -- map("n", "<C-n>", ":<C-u>tabnext<CR>", { silent = true })
 -- map("n", "<C-p>", ":<C-u>tabNext<CR>", { silent = true })
 map("n", "<C-n>", ":<C-u>cn<CR>", { silent = true })
